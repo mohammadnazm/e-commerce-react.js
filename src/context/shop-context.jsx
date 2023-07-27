@@ -26,6 +26,13 @@ export const ShopContextProvider = props => {
     setCartItems(prev => ({ ...prev, [itemId]: newAmount }))
   }
 
+  const getTotalCartAmount = () => {
+    let totalAmount = 0
+    for (const item in cartItems) {
+      let itemInfo = PRODUCTS.find(product => product.id === Number(item))
+    }
+  }
+
   const contextValue = {
     cartItems,
     addToCart,
