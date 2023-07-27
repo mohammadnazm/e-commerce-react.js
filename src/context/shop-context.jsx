@@ -32,6 +32,8 @@ export const ShopContextProvider = props => {
       let itemInfo = PRODUCTS.find(product => product.id === Number(item))
       totalAmount += cartItems[item] * itemInfo.price
     }
+
+    return totalAmount
   }
 
   const contextValue = {
@@ -39,6 +41,7 @@ export const ShopContextProvider = props => {
     addToCart,
     removeFromCart,
     updateCartItemCount,
+    getTotalCartAmount,
   }
 
   return (
