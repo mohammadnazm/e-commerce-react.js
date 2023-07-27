@@ -30,6 +30,7 @@ export const ShopContextProvider = props => {
     let totalAmount = 0
     for (const item in cartItems) {
       let itemInfo = PRODUCTS.find(product => product.id === Number(item))
+      totalAmount += cartItems[item] * itemInfo.price
     }
   }
 
