@@ -23,6 +23,8 @@ export const Cart = () => {
 
       <div className="checkout">
         <p>Subtotal: ${totalAmount}</p>
+        <button>Continue Shopping</button>
+        <button>Checkout</button>
       </div>
     </div>
   )
