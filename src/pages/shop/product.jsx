@@ -5,10 +5,12 @@ export const Product = props => {
 
   return (
     <div className="product">
+      <img src={productImage} />
       <div className="description">
         <p>
           <b>{productName}</b>
         </p>
+        <p>${price}</p>
       </div>
     </div>
   )
