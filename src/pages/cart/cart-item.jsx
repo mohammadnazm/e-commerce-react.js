@@ -18,7 +18,7 @@ export const CartItem = props => {
           <button onClick={() => removeFromCart(id)}>-</button>
           <input
             value={cartItems[id]}
-            onChange={e => updateCartItemAmount(e.target.value)}
+            onChange={e => updateCartItemAmount(Number(e.target.value), id)}
           />
           <button onClick={() => addToCart(id)}> + </button>
         </div>
