@@ -10,6 +10,11 @@ export const CartItem = props => {
           <b>{productName}</b>
         </p>
         <p>${price}</p>
+        <div className="countHandler">
+          <button>-</button>
+          <input />
+          <button>+</button>
+        </div>
       </div>
     </div>
   )
