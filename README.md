@@ -1,4 +1,4 @@
-# Ecommerce Website
+# E-commerce Website
 
 Welcome to the E-commerce Website Repository! This open-source project aims to provide a robust and feature-rich platform for e-commerce websites.
 
