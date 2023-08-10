@@ -6,9 +6,7 @@ Welcome to the E-commerce Website Repository! This open-source project aims to p
 
 ## Features
 1. Product Display: The e-commerce website displays various products along with their descriptions, prices, and images.
-2. Add To Cart Button: Each product listing includes an "Add to Cart" button or associated icon.  
-3. Cart Page: Clicking on the shopping cart icon takes the user to the cart page, where they can review the products added to the cart, update quantities, remove items, and calculate the total order amount.
-4. Continue Shopping: Users can choose to continue shopping and add more items to the cart or proceed to the checkout process.
+2. Add To Cart Button: Each product listing includes an "Add to Cart" button or associated icon.
 
 ## Installation
 
